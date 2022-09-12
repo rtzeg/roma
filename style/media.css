@@ -1,0 +1,128 @@
+@media (max-width:1050px){
+    .navbar{
+        padding: 0 50px;
+    }
+    .navbar__item:not(:last-child){
+        margin-right: 40px;
+    }
+}
+@media (max-width:942px){
+    .projects__text{
+        margin-bottom: 30px;
+    }
+    .project__blocks{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .project__button{
+        margin: 0 auto;
+    }
+    .project__block:first-child{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:850px){
+    .burger{
+        display: flex;
+    }
+    .navbar__list{
+        display: none;
+    }
+    .social__link i{
+        font-size: 24px;
+    }
+    
+    .main__top{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .main__info{
+        text-align: center;
+        width: auto;
+    }
+    .info__button{
+        margin: 0 auto;
+    }
+    .main__bottom h4{
+        text-align: center;
+    }
+
+    .study__library{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .library__button{
+        margin: 0 auto;
+    }
+
+
+    .study__wepro{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:500px){
+    .main__photo img {
+        width: 270px;
+        height: 270px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .info__button{
+        width: 187px;
+    }
+
+
+    .library__geo{
+        display: none;
+    }
+    .library__right img{
+        width: 260px;
+        height: 180px;
+    }
+    .wepro__button{
+        margin: 0 auto;
+    }
+
+    .project__img img{
+        width: 260px;
+        height: 180px;
+    }
+    .projects__text{
+        text-align: center;
+    }
+
+
+    .form{   
+         display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .email {
+        width: 250px;
+        height: 40px;
+
+    }
+
+    .mobile {
+        width: 250px;
+        height: 40px;
+
+    }
+
+
+    .message {
+        width: 250px;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+    .contact__button{
+        width: 250px;
+        height: 50px;
+        margin: 0px auto 80px;
+    }
+}

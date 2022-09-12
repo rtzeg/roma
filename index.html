@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=Raleway:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c3dfcbc00d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/media.css" />
+    <title>Homework 5</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="burger">
+          <span class="burger__item"></span>
+        </div>
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#study" class="navbar__link">Study</a>
+          </li>
+
+          <li class="navbar__item">
+          <a href="#projects" class="navbar__link">Recent work</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#contact" class="navbar__link">Get In Touch</a>
+          </li>
+        </ul>
+        <ul class="navbar__social social">
+          <li class="social__item">
+            <a href="" class="social__link">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="" class="social__link">
+              <i class="fa-brands fa-behance"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="" class="social__link">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="container main__container">
+        <div class="main__top">
+          <div class="main__info info">
+            <div class="info__name"><h1>Dalil Sadikov</h1></div>
+            <div class="info__description">
+              <p>
+                I'm 21 years old and i'm beginner in frontend-development, i
+                hope one day i will become great specialist in this profession
+              </p>
+            </div>
+            <button class="button info__button">
+              Let’s get started <img src="./img/arrow.svg" alt="arrow" />
+            </button>
+          </div>
+          <div class="main__photo">
+            <img src="./img/photo.jpg" alt="photo" />
+          </div>
+        </div>
+        <div class="main__bottom">
+          <h4>Worked with</h4>
+          <div class="main__bottom-tech">
+            <img src="./img/tech/html.svg" alt="html" class="tech__item" />
+            <img src="./img/tech/css.svg" alt="css" class="tech__item" />
+            <img src="./img/tech/figma.svg" alt="figma" class="tech__item" />
+            <img src="./img/tech/github.svg" alt="git" class="tech__item" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="study" id="study">
+      <div class="container study__container">
+        <div class="study__text">
+          <h2 class="study__title">Study</h2>
+          <h4 class="study__subtitle">
+            I started to learn programming in Moscow. My first programming
+            language was Python, it has very simple syntax but after mini -
+            course i decide to change my way from backend to frontend.
+          </h4>
+        </div>
+        <div class="library">
+          <div class="study__library">
+            <div class="library__left">
+              <div class="library__geo">
+                <p>Moscow</p>
+              </div>
+              <div class="library__name">Library №98</div>
+              <h4 class="library__description">
+                In this place i spend a lot of time, i tried to go to the
+                library every day but on mondays it was closed on weekend, so i
+                can have a rest or study at home, mostly i choose to have a
+                rest.
+              </h4>
+              <button class="button library__button">
+                Let’s get study <img src="./img/arrow.svg" alt="arrow" />
+              </button>
+            </div>
+
+            <div class="library__right">
+              <img src="./img/library.jpg" alt="library" />
+            </div>
+          </div>
+        </div>
+        <!-- LIBRARY END -->
+        <div class="wepro">
+          <div class="study__library study__wepro">
+            <div class="library__right wepro__left">
+              <img src="./img/1.jpg" alt="wepro" />
+            </div>
+            <div class="library__left wepro__right">
+              <div class="library__geo wepro__geo">
+                <p>Samarkand</p>
+              </div>
+              <div class="library__name wepro__name">WePro</div>
+              <h4 class="library__description wepro__description">
+                As soon i arrived in Samarkand i went to WePro IT School,
+                because i wanted to find a community and mentor, who can explain
+                hard things in simple words
+              </h4>
+              <button class="button wepro__button">
+                Let’s get study <img src="./img/arrow.svg" alt="arrow" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- WePro END -->
+      </div>
+      <!-- CONTAINER END -->
+    </section>
+    <section class="projects" id="projects">
+      <div class="container projects__container">
+        <div class="projects__text">
+          <h2 class="projects__title">Recent Work</h2>
+          <h4 class="projects__subtitle">
+            I have few projects which i did by myself.
+          </h4>
+        </div>
+        <div class="project__blocks">
+          <div class="project__block">
+            <div class="project__img">
+              <img src="./img/Projects/GoCorona.png" alt="GoCorona" />
+            </div>
+            <div class="project__name">GoCorona</div>
+            <div class="project__description">
+              Site for private clinic which helps people with coronavirus
+            </div>
+            <button class="button project__button">
+              Know more <img src="./img/arrow.svg" alt="arrow" />
+            </button>
+          </div>
+          <div class="project__block">
+            <div class="project__img">
+              <img src="./img/Projects/Travel.png" alt="GoCorona" />
+            </div>
+            <div class="project__name">Travel</div>
+            <div class="project__description">Site for travel agency.</div>
+            <button class="button project__button travel__button">
+              Know more <img src="./img/arrow.svg" alt="arrow" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- CONTAINER END -->
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact__container">
+        <div class="contact__text">
+          <h2 class="contact__title">Get In Touch</h2>
+          <h4 class="contact__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </h4>
+        </div>
+        <div class="contact__block">
+          <form action="#" method="get" id="form1" class="form">
+            <label for="fname" class="email__text"> <h5>Email</h5></label>
+            <input
+              type="email"
+              name="fname"
+              class="email"
+              placeholder="Please enter your email"
+            />
+            <label for="lname"><h5>Mobile</h5> </label>
+            <input
+              type="tel"
+              name="lname"
+              class="mobile"
+              placeholder="Enter mobile"
+            />
+            <label for="lname"><h5>Message</h5> </label>
+            <input
+              type="text"
+              name="lname"
+              class="message"
+              placeholder="Enter your message"
+            />
+          </form>
+
+          <button
+            type="submit"
+            form="form1"
+            value="Submit"
+            class="button contact__button"
+          >
+            Submit <img src="./img/arrow.svg" alt="arrow" />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <h4 class="footer__text">Made with <i class="fa-solid fa-heart"></i></h4>
+      </div>
+    </footer>
+  </body>
+</html>
